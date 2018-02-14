@@ -1,0 +1,421 @@
+html, body {
+ height:100%;
+ padding:0;
+ margin:0;
+ font-family: 'Lato', sans-serif;
+}
+
+header{
+  width: 100%;
+  height: 50px;
+  background-color: #477999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+}
+
+.navbar{
+  background-color: #F4F4F4;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  width: 100%;
+  height: 180px;
+}
+
+
+#logo{
+  margin-left: 5%;
+}
+
+#logo:hover{
+  color: #2ecc8d;
+}
+
+#solutions{
+  margin-left: 8%;
+}
+
+#solutions:hover{
+  color: #2ecc8d;
+}
+
+#industries{
+  margin-left: 8%;
+}
+
+#industries:hover{
+  color: #2ecc8d;
+}
+
+#blog{
+  margin-left: 8%;
+}
+
+#blog:hover{
+  color: #2ecc8d;
+}
+
+#started{
+  position: absolute;
+  margin-left: 85%;
+  background-color: #477999;
+  width: 10%;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  font-size: 14px;
+}
+
+#started:hover{
+  background-color: #2ecc8d;
+}
+
+.top-image{
+  width: 100%;
+  height: 533px;
+  background: linear-gradient(to right, #232728, transparent), url("../img/shoes-bridge.jpg") no-repeat center;
+  background-size: 100% 100%;
+  position: relative;
+  box-sizing: border-box;
+}
+
+#tagline{
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  font-size: 42px;
+  width: 450px;
+  color: white;
+}
+
+#tagline2{
+  position: absolute;
+  top: 29%;
+  left: 5%;
+  text-transform: uppercase;
+  color: lightblue;
+}
+
+.section1{
+  background-color: #F4F4F4;
+  position: relative;
+  width: 100%;
+  height: 600px;
+  font-size: 20px;
+}
+
+.section1-content{
+  background-color: #F4F4F4;
+  position: absolute;
+  width: 30%;
+  height: 40%;
+  top: 15%;
+  right: 20%;
+}
+
+#icons{
+  position: absolute;
+  opacity: 0.5;
+  height: 500px;
+  top: 5%;
+  left: 8%;
+
+}
+
+.icon-content{
+  position: absolute;
+  font-size: 18px;
+  width: 150px;
+  height: 400px;
+  top: 5%;
+  left: 20%;
+}
+
+
+#content1{
+  margin-bottom: 30px;
+}
+
+#content1:hover{
+  border-left: 5px solid lightblue;
+  padding-left: 15px;
+}
+
+#content2{
+  margin-bottom: 40px;
+}
+
+#content2:hover{
+  border-left: 5px solid lightblue;
+  padding-left: 15px;
+}
+
+#content3{
+  margin-bottom: 40px;
+}
+
+#content3:hover{
+  border-left: 5px solid lightblue;
+  padding-left: 15px;
+}
+
+#content4{
+  margin-bottom: 40px;
+}
+
+#content4:hover{
+  border-left: 5px solid lightblue;
+  padding-left: 15px;
+}
+
+#control{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 5px;
+  color: #477999;
+}
+
+#ability{
+  text-align: center;
+}
+
+#scale{
+  text-align: center;
+}
+
+.middle-image{
+  position: relative;
+  width: 100%;
+  height: 533px;
+  background: linear-gradient(to right, #232728, transparent), url("../img/phone-city.jpg") no-repeat center;
+}
+
+#tagline4{
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  text-transform: uppercase;
+  color: lightblue;
+}
+
+#tagline3{
+  position: absolute;
+  top: 11%;
+  left: 5%;
+  font-size: 42px;
+  width: 450px;
+  color: white;
+}
+
+
+#content5{
+  position: absolute;
+  border-top: 5px solid white;
+  padding-top: 25px;
+  width: 25%;
+  top: 50%;
+  left: 5%;
+  color: white;
+  font-size: 18px;
+}
+
+.sales-content{
+  position: relative;
+  width: 100%;
+  height: 533px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  color: #477999;
+}
+
+#sales1{
+  border-top: 2px solid black;
+  padding-top: 15px;
+  margin-bottom: 5px;
+}
+
+#sales2{
+  border-top: 2px solid black;
+  padding-top: 15px;
+  margin-bottom: 5px;
+}
+
+#sales3{
+  border-top: 2px solid black;
+  padding-top: 15px;
+  margin-bottom: 5px;
+}
+
+#sales4{
+  border-top: 2px solid black;
+  padding-top: 15px;
+  border-bottom: 2px solid black;
+  padding-bottom: 20px;
+}
+
+#checkmark1{
+  position: absolute;
+  right: 20%;
+  top: 25%;
+}
+
+#checkmark2{
+  position: absolute;
+  right: 19%;
+  top: 38%;
+}
+
+#checkmark3{
+  position: absolute;
+  right: 22%;
+  top: 52%;
+}
+
+#checkmark4{
+  position: absolute;
+  right: 23%;
+  top: 65%;
+}
+
+.footer{
+  background-color: #477999;
+  width: 100%;
+  height: 233px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 28px;
+  color: white;
+}
+
+#end-button{
+  background-color: lightblue;
+  width: 10%;
+  padding: 20px;
+  border-radius: 10px;
+  color: black;
+  font-size: 14px;
+}
+
+#end-button:hover{
+  background-color: #2ecc8d;
+}
+
+.contact{
+  background-color: #434747;
+  width: 100%;
+  height: 480px;
+}
+
+#footer-nav{
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  width: 80%;
+  height: 80px;
+  margin-left: 10%;
+  font-size: 18px;
+  border-bottom: 4px solid black;
+}
+
+#about-2{
+  position: absolute;
+}
+
+#press-2{
+  position: absolute;
+  left: 7%;
+}
+
+#blog-2{
+  position: absolute;
+  left: 14%;
+}
+
+.footer-content{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: 220px;
+  margin-left: 10%;
+  border-bottom: 4px solid black;
+  font-size: 18px;
+  line-height: 10px;
+}
+
+#solutions-2{
+  color: #808787;
+  width: 25%;
+  height: 200px;
+}
+
+#solution-list{
+  color: lightblue;
+  margin-bottom: 30px;
+}
+
+#online-store:hover{
+  color: white;
+}
+
+#multi-channel:hover{
+  color: white;
+}
+
+#ecommerce-auto:hover{
+  color: white;
+}
+
+#campaigns:hover{
+  color: white;
+}
+
+#industries-2{
+  color: #808787;
+  width: 25%;
+  height: 200px;
+}
+
+#industries-list{
+  color: lightblue;
+  margin-bottom: 30px;
+}
+
+#fashion-apparel:hover{
+  color: white;
+}
+
+#beauty-cosmetics:hover{
+  color: white;
+}
+
+#consumer-electronics:hover{
+  color: white;
+}
+
+#food-beverage:hover{
+  color: white;
+}
+
+#logo2{
+  margin-left: 10%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+a:link, a:visited{
+  text-decoration: none;
+  color: white;
+}
